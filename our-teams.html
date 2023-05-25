@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Estetik Template</title>
+</head>
+
+<body>
+    <div class="top-header d-xl-block d-none">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="social-media">
+                    <ul class="d-flex">
+                        <li class="social-item">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="social-item">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-end">
+                <div class="contact">
+                    <ul>
+                        <li><a href=""><img src="./img/telefon-icon.png" class="img-fluid" alt=""><span>+90 555 111 23 23</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container-fluid">
+            <div class="header-inner d-flex align-items-center justify-content-between">
+                <div class="img-wrapper">
+                    <a href="index.html">
+                        <img src="./img/logo.png" class="img-fluid" alt="logo">
+                    </a>
+                </div>
+                <button id="toggle-btn"><i class="fa fa-bars"></i> </button>
+
+                <div class="navigation">
+                    <div class="img-wrapper d-xl-none d-block">
+                        <a href="index.html">
+                            <img src="./img/logo.png" class="img-fluid" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="menu-area d-flex justify-content-center align-items-center">
+                        <li class="nav-item"><a href="index.html" class="nav-link active">ANA SAYFA</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">HAKKIMIZDA</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="services.html" class="nav-link ">HİZMETLERİMİZ</a>
+                            <!--   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        
+
+                            </ul> -->
+                            <div class="dropdown-menu">
+                                <div href="#" class="arrow arrow-top"></div>
+
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div>
+                                            <h4 class="text-center">YÜZ</h4>
+                                            <ul>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Burun Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Yüz Germe</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Yüz Gençleştirme</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Göz Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Kulak Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Dolgu Uygulamaları</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div>
+                                            <h4 class="text-center">MEME</h4>
+                                            <ul>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Burun Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Yüz Germe</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Yüz Gençleştirme</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Göz Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Kulak Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Dolgu Uygulamaları</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div>
+                                            <h4 class="text-center">VÜCUT</h4>
+                                            <ul>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Burun Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Yüz Germe</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Yüz Gençleştirme</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Göz Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Kulak Estetiği</a></li>
+                                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-chevron-right"></i>Dolgu Uygulamaları</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">EKİBİMİZ</a></li>
+
+                        <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link"> İLETİŞİM</a></li>
+                    </ul>
+
+                    <div class="right-area  d-xl-none d-flex align-items-center">
+                        <div class="search-btn">
+                            <a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                        </div>
+                        <div>
+                            <a href="" class="btn">RANDEVU AL</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-area d-xl-flex d-none align-items-center">
+                    <div class="search-btn">
+                        <a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                    </div>
+                    <div>
+                        <a href="" class="btn">RANDEVU AL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="search-box">
+        <div class="container">
+            <a class="close" href="#close"></a>
+            <div class="search-main">
+                <div class="search-inner">
+                    <input type="text" class="form-control" id="inputSearch" name="firstname" placeholder="Aramak istediğiniz kelimeyi yazınız...">
+                    <span class="search-info">Aramak için enter'a veya kapatmak için ESC'ye basın
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="sub-banner" style="background: url(./img/sub-banner3.jpg) no-repeat; background-size: cover; background-position: center;">
+        <div class="container-fluid">
+            <h3>Ekibimiz</h3>
+        </div>
+    </section>
+
+    <section class="doctors-page">
+        <div class="container-fluid">
+            <div class="top">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="img-wrapper">
+                            <img src="./img/doctor-photo2.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="content">
+                            <h4>Op. Dr. Deniz Ünsal </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <a href=""> <img src="./img/doctor-photo.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a href="">
+                                    <h5 class="card-title">Op. Dr. Deniz Ünsal </h5>
+                                </a>
+
+                                <div class="button-area">
+                                    <a href="#" class="btn">İNCELE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <a href=""> <img src="./img/doctor-photo.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a href="">
+                                    <h5 class="card-title">Op. Dr. Deniz Ünsal </h5>
+                                </a>
+
+                                <div class="button-area">
+                                    <a href="#" class="btn">İNCELE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <a href=""> <img src="./img/doctor-photo.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a href="">
+                                    <h5 class="card-title">Op. Dr. Deniz Ünsal </h5>
+                                </a>
+
+                                <div class="button-area">
+                                    <a href="#" class="btn">İNCELE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <a href=""> <img src="./img/doctor-photo.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a href="">
+                                    <h5 class="card-title">Op. Dr. Deniz Ünsal </h5>
+                                </a>
+
+                                <div class="button-area">
+                                    <a href="#" class="btn">İNCELE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <a href=""> <img src="./img/doctor-photo.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a href="">
+                                    <h5 class="card-title">Op. Dr. Deniz Ünsal </h5>
+                                </a>
+
+                                <div class="button-area">
+                                    <a href="#" class="btn">İNCELE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <a href=""> <img src="./img/doctor-photo.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a href="">
+                                    <h5 class="card-title">Op. Dr. Deniz Ünsal </h5>
+                                </a>
+
+                                <div class="button-area">
+                                    <a href="#" class="btn">İNCELE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="blog mt-0">
+        <div class="container-fluid">
+            <h2>Güncel Yazılar</h2>
+            <div class="swiper mySwiperBlog">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href=""> <img src="./img/blog.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <div>
+                                    <a href="">
+                                        <h5 class="card-title">Yüz Germe</h5>
+                                    </a>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Quis
+                                    </p>
+
+                                    <div class="button-area">
+                                        <a href="#" class="btn">Devamını Oku <img src="./img/ok2.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="comment-box">
+                                    <a href="" class="d-flex align-items-center">
+                                        <img src="./img/commentary.png" class="img-fluid" alt="">
+                                        <span>2 yorum</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href=""> <img src="./img/blog.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <div>
+                                    <a href="">
+                                        <h5 class="card-title">Yüz Germe</h5>
+                                    </a>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Quis
+                                    </p>
+
+                                    <div class="button-area">
+                                        <a href="#" class="btn">Devamını Oku <img src="./img/ok2.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="comment-box">
+                                    <a href="" class="d-flex align-items-center">
+                                        <img src="./img/commentary.png" class="img-fluid" alt="">
+                                        <span>2 yorum</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href=""> <img src="./img/blog.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <div>
+                                    <a href="">
+                                        <h5 class="card-title">Yüz Germe</h5>
+                                    </a>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Quis
+                                    </p>
+
+                                    <div class="button-area">
+                                        <a href="#" class="btn">Devamını Oku <img src="./img/ok2.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="comment-box">
+                                    <a href="" class="d-flex align-items-center">
+                                        <img src="./img/commentary.png" class="img-fluid" alt="">
+                                        <span>2 yorum</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href=""> <img src="./img/blog.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <div>
+                                    <a href="">
+                                        <h5 class="card-title">Yüz Germe</h5>
+                                    </a>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Quis
+                                    </p>
+
+                                    <div class="button-area">
+                                        <a href="#" class="btn">Devamını Oku <img src="./img/ok2.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="comment-box">
+                                    <a href="" class="d-flex align-items-center">
+                                        <img src="./img/commentary.png" class="img-fluid" alt="">
+                                        <span>2 yorum</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href=""> <img src="./img/blog.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <div>
+                                    <a href="">
+                                        <h5 class="card-title">Yüz Germe</h5>
+                                    </a>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Quis
+                                    </p>
+
+                                    <div class="button-area">
+                                        <a href="#" class="btn">Devamını Oku <img src="./img/ok2.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="comment-box">
+                                    <a href="" class="d-flex align-items-center">
+                                        <img src="./img/commentary.png" class="img-fluid" alt="">
+                                        <span>2 yorum</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="box">
+                    <h5>
+                        HAKKIMIZDA
+                    </h5>
+                    <p class="address">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas ac
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6">
+                <div class="box">
+                    <div class="address-item d-flex align-items-center">
+                        <div>
+                            <img src="./img/map.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="right">
+                            <p>
+                                Zeytinlik Mah. Türkçü Sok. Ferah Palas
+                                Apartman A Blok No:16 Daire:9 Kat:4
+                                Bakırköy / İSTANBUL
+                            </p>
+                        </div>
+                    </div>
+                    <div class="address-item d-flex align-items-center">
+                        <div>
+                            <img src="./img/phone.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <a href="">+90 535 12345 67</a>
+                            <a href="">+90 535 12345 67</a>
+                        </div>
+                    </div>
+                    <div class="address-item d-flex align-items-center">
+                        <div>
+                            <img src="./img/mail.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <a href="">bilgi@dentalcare.com</a>
+                            <a href="">info@dentalcare.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box">
+                    <h6>E-BÜLTEN</h6>
+                    <span>Haftalık haberler ve güncellemeler için kaydolun.</span>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">E-mail</label>
+                            <div class="input-icon d-flex align-items-center ">
+                                <input type="text" class="form-control" placeholder="">
+                                <button type="submit" class="btn">
+                                    <div class="icon d-flex align-items-center">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="social-media">
+                        <ul>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
