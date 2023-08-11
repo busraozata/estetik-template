@@ -141,7 +141,7 @@ $xl-breakpoint: 1200px; //Extra large
 $xxl-breakpoint: 1400px; //Extra extra large
 
 .top-header {
-  padding: 1.5rem 1rem;
+  padding: 0.7rem 1rem;
   background-color: var(--color-white);
   @media screen and (max-width: 1550px) {
     padding: 1.2rem 1rem;
@@ -165,7 +165,7 @@ $xxl-breakpoint: 1400px; //Extra extra large
       }
       a {
         color: var(--color-gray);
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         transition: 0.3s all;
         &:hover {
           color: var(--color-blue);
@@ -204,9 +204,9 @@ $xxl-breakpoint: 1400px; //Extra extra large
           }
           span {
             margin-left: 1rem;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             @media screen and (max-width: 1550px) {
-              font-size: 1.1rem;
+              font-size: 1rem;
             }
           }
         }

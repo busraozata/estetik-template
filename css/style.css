@@ -127,7 +127,7 @@ button {
 }
 
 .top-header {
-  padding: 1.5rem 1rem;
+  padding: 0.7rem 1rem;
   background-color: var(--color-white);
 }
 
@@ -157,7 +157,7 @@ button {
 
 .top-header ul .social-item a {
   color: var(--color-gray);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -213,12 +213,12 @@ button {
 
 .top-header .contact ul li a span {
   margin-left: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 1550px) {
   .top-header .contact ul li a span {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
