@@ -513,6 +513,12 @@ header {
         font-weight: bold;
         font-size: 1rem;
         position: relative;
+        transition: 0.3s all;
+        &:hover{
+          background-color: transparent;
+          border: 1px solid #79abc3;
+          color: var(--color-gray);
+        }
         &::after {
           content: "";
           height: 100%;

@@ -635,6 +635,14 @@ header .header-inner .right-area .btn {
   font-weight: bold;
   font-size: 1rem;
   position: relative;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+header .header-inner .right-area .btn:hover {
+  background-color: transparent;
+  border: 1px solid #79abc3;
+  color: var(--color-gray);
 }
 
 header .header-inner .right-area .btn::after {
